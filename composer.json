@@ -1,7 +1,7 @@
 {
     "name": "spatie/asset-helper",
     "license": "MIT",
-    "description": "A simple Laravel package to help you work with revisioned assets",
+    "description": "Get the url to a revisioned asset",
     "keywords":
         [
             "asset",
