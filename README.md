@@ -48,7 +48,7 @@ This package also comes with a facade, which provides an easy way to call the th
 
 ##Configuration
 You can publish the configuration file using this command:
-```
+```console
 php artisan config:publish spatie/asset-helper
 ```
 
