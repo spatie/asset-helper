@@ -1,4 +1,4 @@
-Get a revisioned version of an asset
+Get the url to a revisioned asset
 =======
 [![Latest Stable Version](https://poser.pugx.org/spatie/asset-helper/version.png)](https://packagist.org/packages/spatie/asset-helper)
 [![License](https://poser.pugx.org/spatie/asset-helper/license.png)](https://packagist.org/packages/spatie/asset-helper)
