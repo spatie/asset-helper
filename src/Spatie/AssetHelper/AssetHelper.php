@@ -21,7 +21,7 @@ class AssetHelper{
      * @return string
      */
     public function getUrl($assetName) {
-        return $this->getPublicBaseUrl() . '/' . $this->getRevisionedFileName($assetName);
+        return $this->config->get('asset-helper::assetDirectoryUrl') . '/' . $this->getRevisionedFileName($assetName);
     }
 
     /**
@@ -33,19 +33,9 @@ class AssetHelper{
     public function getRevisionedFileName($asset)
     {
         $globSearchString = pathinfo($asset, PATHINFO_FILENAME) .'.*.' . File::extension($asset);
-        $globResults = glob($this->config->get('asset-helper::publicPath') . '/' . $globSearchString);
+        $globResults = glob(public_path() . $this->config->get('asset-helper::assetDirectoryUrl') . '/' . $globSearchString);
 
         return count($globResults) ? pathinfo($globResults[0], PATHINFO_BASENAME) : '';
-    }
-
-    /**
-     * Get the public url to where the revisioned assets are stored
-     *
-     * @return string
-     */
-    public function getPublicBaseUrl()
-    {
-        return str_replace(public_path(), '', $this->config->get('asset-helper::publicPath'));
     }
 
 }
