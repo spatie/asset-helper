@@ -1,4 +1,4 @@
-Get a revisioned version of an asset
+Get the url to a revisioned asset
 =======
 This Laravel 4 package enables you to get an url to a revisioned asset.
 
