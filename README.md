@@ -83,8 +83,7 @@ Suppose this is the contents of that directory:
 
 As a cache-busting mechanism your asset pipeline probably puts a random string in the filename of the asset. In the example above this is '0ce5cb43', 'adc60631', '1954b61c.js', ...
 
-
-This package provides you a with a `getUrl($nonRevisionedAssetName)`-method that returns the url to the revisioned version. Calling `Asset::getUrl('admin.css')` returns `/assets/admin.0ce5cb43.css`
+Calling `Asset::getUrl('admin.css')` returns `/assets/admin.0ce5cb43.css`
 
 So your layout file could look something like this:
 
