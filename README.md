@@ -55,7 +55,6 @@ php artisan config:publish spatie/asset-helper
 A configuration-file with some sensible defaults will be placed in your config/packages directory:
 
 ```php
-<?php
 return
     [
         /**
