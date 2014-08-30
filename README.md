@@ -1,5 +1,8 @@
-Get the url to a revisioned asset
+Get a revisioned version of an asset
 =======
+[![Latest Stable Version](https://poser.pugx.org/spatie/asset-helper/version.png)](https://packagist.org/packages/spatie/asset-helper)
+[![License](https://poser.pugx.org/spatie/asset-helper/license.png)](https://packagist.org/packages/spatie/asset-helper)
+
 This Laravel 4 package enables you to get an url to a revisioned asset.
 
 This package assumes that your asset pipeline:
