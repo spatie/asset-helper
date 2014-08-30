@@ -1,0 +1,28 @@
+{
+    "name": "spatie/asset-helper",
+    "license": "MIT",
+    "description": "A simple Laravel package to help you work with revisioned assets",
+    "keywords":
+        [
+            "asset",
+            "helper",
+            "url",
+            "laravel"
+        ],
+    "authors": [
+        {
+            "name": "Freek Van der Herten",
+            "email": "freek@spatie.be"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Spatie\\AssetHelper\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
