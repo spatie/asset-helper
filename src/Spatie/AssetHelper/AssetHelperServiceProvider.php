@@ -28,17 +28,7 @@ class AssetHelperServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-        $this->app->bind('asset', 'Spatie\AssetHelper\AssetHelper');
-	}
-
-	/**
-	 * Get the services provided by the provider.
-	 *
-	 * @return array
-	 */
-	public function provides()
-	{
-		return array();
+        $this->app->bind('assetHelper', 'Spatie\AssetHelper\AssetHelper');
 	}
 
 }
