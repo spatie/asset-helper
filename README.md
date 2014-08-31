@@ -5,8 +5,8 @@ Get the url to a revisioned asset
 
 This Laravel 4 package enables you to get an url to a revisioned asset.
 
-The sounds a bit vague right? Let me clear it up by giving an example:
-calling  this provided method `Asset::getUrl('admin.css')` returns `/assets/admin.0ce5cb43.css`
+The sounds a bit vague right? Let me clear it up by shwoing an example.
+Calling this provided method `Asset::getUrl('admin.css')` returns `/assets/admin.0ce5cb43.css`
 
 This package assumes that your asset pipeline:
 - saves all of your assets in one public folder. 
