@@ -16,12 +16,8 @@ This package assumes that your asset pipeline:
 ##Installation
 The package can be installed through Composer:
 
-```js
-{
-    "require": {
-		"spatie/asset-helper": "dev-master"
-	}
-}
+```
+composer require spatie/asset-helper
 ```
 
 This service provider must be installed:
