@@ -2,6 +2,7 @@
     "name": "spatie/asset-helper",
     "license": "MIT",
     "description": "Get the url to a revisioned asset",
+    "homepage": "https://github.com/spatie/asset-helper",
     "keywords":
         [
             "asset",
