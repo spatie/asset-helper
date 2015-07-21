@@ -12,6 +12,8 @@ This package assumes that your asset pipeline:
 - saves all of your assets in one public folder. 
 - puts a random string in the filename of every asset as a cache-busting mechanism
 
+Spatie is webdesign agency in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
+
 
 ##Installation
 The package can be installed through Composer:
@@ -105,35 +107,5 @@ So your layout file could look something like this:
 </html>
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
+## About Spatie
+Spatie is webdesign agency in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
