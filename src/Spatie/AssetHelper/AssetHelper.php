@@ -31,7 +31,7 @@ class AssetHelper{
      */
     public function getRevisionedFileName($asset)
     {
-        $globSearchString = pathinfo($asset, PATHINFO_FILENAME) .'.*.' . pathinfo($asset, PATHINFO_EXTENSION);
+        $globSearchString = pathinfo($asset, PATHINFO_DIRNAME) . '/' . pathinfo($asset, PATHINFO_FILENAME) .'.*.' . pathinfo($asset, PATHINFO_EXTENSION);
         $globResults = glob(public_path() . $this->config->get('asset-helper::assetDirectoryUrl') . '/' . $globSearchString);
 
         return count($globResults) ? pathinfo($globResults[0], PATHINFO_BASENAME) : '';
