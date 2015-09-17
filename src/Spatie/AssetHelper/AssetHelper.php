@@ -34,7 +34,7 @@ class AssetHelper{
         $globSearchString = pathinfo($asset, PATHINFO_DIRNAME) . '/' . pathinfo($asset, PATHINFO_FILENAME) .'.*.' . pathinfo($asset, PATHINFO_EXTENSION);
         $globResults = glob(public_path() . $this->config->get('asset-helper::assetDirectoryUrl') . '/' . $globSearchString);
 
-        return count($globResults) ? pathinfo($globResults[0], PATHINFO_BASENAME) : '';
+        return count($globResults) ? pathinfo($asset, PATHINFO_DIRNAME) . '/' .pathinfo($globResults[0], PATHINFO_BASENAME) : '';
     }
 
 }
