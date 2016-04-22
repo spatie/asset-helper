@@ -1,9 +1,11 @@
-<?php namespace Spatie\AssetHelper;
+<?php
+
+namespace Spatie\AssetHelper;
 
 use Illuminate\Support\Facades\Facade;
 
-class AssetHelperFacade extends Facade {
-
+class AssetHelperFacade extends Facade
+{
     /**
      * @see \Spatie\AssetHelper\AssetHelper
      *
@@ -13,5 +15,4 @@ class AssetHelperFacade extends Facade {
     {
         return 'asset-helper';
     }
-
 }
