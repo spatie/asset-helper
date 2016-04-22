@@ -5,13 +5,13 @@ use Illuminate\Support\Facades\Facade;
 class AssetHelperFacade extends Facade {
 
     /**
-     * Get the registered name of the component.
+     * @see \Spatie\AssetHelper\AssetHelper
      *
      * @return string
      */
     protected static function getFacadeAccessor()
     {
-        return 'assetHelper';
+        return 'asset-helper';
     }
 
 }
