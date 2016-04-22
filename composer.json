@@ -3,13 +3,12 @@
     "license": "MIT",
     "description": "Get the url to a revisioned asset",
     "homepage": "https://github.com/spatie/asset-helper",
-    "keywords":
-        [
-            "asset",
-            "helper",
-            "url",
-            "laravel"
-        ],
+    "keywords": [
+        "asset",
+        "helper",
+        "url",
+        "laravel"
+    ],
     "authors": [
         {
             "name": "Freek Van der Herten",
@@ -17,8 +16,8 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "4.*|5.*"
+        "php": ">=5.6.0",
+        "illuminate/support": "^5.1"
     },
     "autoload": {
         "psr-0": {
