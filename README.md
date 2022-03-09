@@ -1,3 +1,6 @@
+
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
+
 Get the url to a revisioned asset
 =======
 [![Latest Stable Version](https://poser.pugx.org/spatie/asset-helper/version.png)](https://packagist.org/packages/spatie/asset-helper)
